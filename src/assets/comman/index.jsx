@@ -1,4 +1,4 @@
-import LoginImage from "./loginImage.png"
+import LoginImage from "./LoginImage.png"
 import SignIn from "./Signin.png"
 import logo from "./logo.png"
 import X from "./x.png"
