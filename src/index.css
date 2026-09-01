@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .primaryBg {
+    background: #3b82f6
+  }
+  .primary{
+    color:#787590
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;     
+}
+
+.best-sellers-slider .swiper-button-prev,
+.best-sellers-slider .swiper-button-next {
+  color: #d4a017;
+}
+
+.best-sellers-slider .swiper-button-prev::after,
+.best-sellers-slider .swiper-button-next::after {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.best-sellers-slider .swiper-pagination-bullet {
+  background: #d4a017;
+  opacity: 0.35;
+}
+
+.best-sellers-slider .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fde68a !important;  /* light amber */
+  opacity: 1 !important;
+}
+
+/* active dot */
+.swiper-pagination-bullet-active {
+  background-color: #f59e0b !important; /* orange */
+  width: 20px;
+  border-radius: 10px;
+}
+
+.swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  width: 100%;
+}
